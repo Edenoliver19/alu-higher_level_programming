@@ -1,8 +1,8 @@
 -- 0-privileges.sql
--- Script to list privileges of user_0d_1 and user_0d_2
+-- Safely list privileges for user_0d_1 and user_0d_2
 
-SELECT 'Grants for user_0d_1@localhost:' AS info;
+-- Attempt to show grants for user_0d_1
 SHOW GRANTS FOR 'user_0d_1'@'localhost';
 
-SELECT 'Grants for user_0d_2@localhost:' AS info;
+-- Attempt to show grants for user_0d_2
 SHOW GRANTS FOR 'user_0d_2'@'localhost';
