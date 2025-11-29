@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>InvalidBucketName</Code><Message>The specified bucket is not valid.</Message><BucketName>???</BucketName><RequestId>A6JS5Y902096M8BH</RequestId><HostId>NPwUNb6mmQYaOWdSaXu61cRXtMu9OL2MKS/Q5lv/Fwr9ZQWx+c5/UGupxu0/pihG1K2zXAFBng6WGf2tg9Zf8W32CDJ1ITkQ</HostId></Error>
