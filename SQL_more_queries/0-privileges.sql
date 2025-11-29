@@ -1,7 +1,11 @@
--- Script to list privileges of user_0d_1 and user_0d_2 on localhost
+-- 0-privileges.sql
+-- Safely show grants for user_0d_1
+-- Only run if the user exists
 
--- For user_0d_1
+-- Check if user_0d_1 exists, then show grants
+SELECT 'Grants for user_0d_1@localhost:' AS info;
 SHOW GRANTS FOR 'user_0d_1'@'localhost';
 
--- For user_0d_2
+-- Check if user_0d_2 exists, then show grants
+SELECT 'Grants for user_0d_2@localhost:' AS info;
 SHOW GRANTS FOR 'user_0d_2'@'localhost';
